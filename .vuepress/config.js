@@ -1,17 +1,23 @@
 module.exports = {
-    title: 'zeo platform',
+    title: 'zeo info center',
     descriptin: 'This is full stack of zeo documentation.',
     themeConfig:{
         nav:[
             {text: 'Home',link: '/'},
-            {text: 'Guide',link: '/guide/'},
+            {text: 'Guideline',link: '/guide/'},
+            {text: 'Command',link: '/guide/command'},
             {text: 'About zeo',link: 'http://www.zebralinetech.com'},
+            
         ],
         sidebar: {
             '/guide/':[
                 '',
                 'frontend',
-                'backend'
+                'backend',
+                'coding',
+                'Architecture',
+                'BestPractice',
+                'command'
             ]
         }
     }
